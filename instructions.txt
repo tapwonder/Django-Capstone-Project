@@ -1,0 +1,24 @@
+Since this course restricts databases to local environments, please input your own database details, create users and tokens manually or through APIs as shown in previous modules on Coursera. Use the relevant API where token authorization is required. Be sure to modify any details specific to your system, like the port or IP address, if different from what's below. You'll be prompted for authorization in some cases, as noted.
+
+API URLs:
+
+http://127.0.0.1:8000/restaurant/menu/
+http://127.0.0.1:8000/restaurant/menu/2/ (change ID to your new one)  
+http://127.0.0.1:8000/restaurant/api-token-auth/ (POST method)
+http://127.0.0.1:8000/restaurant/booking/
+
+Djoser:
+http://127.0.0.1:8000/auth/users/ (can register users via POST)
+http://127.0.0.1:8000/auth/users/me/
+http://127.0.0.1:8000/auth/users/confirm/
+http://127.0.0.1:8000/auth/users/resend_activation/
+http://127.0.0.1:8000/auth/users/set_password/
+http://127.0.0.1:8000/auth/users/reset_password/
+http://127.0.0.1:8000/auth/users/reset_password_confirm/
+http://127.0.0.1:8000/auth/users/set_username/
+http://127.0.0.1:8000/auth/users/reset_username/
+http://127.0.0.1:8000/auth/users/reset_username_confirm/
+
+Djoser token: 
+http://127.0.0.1:8000/auth/token/login/
+
